@@ -152,11 +152,6 @@
                     </a>
                 </li>
                 <li class="list-group-item tag-4">
-                    <a href="./tag/summary.html">
-                        summary
-                    </a>
-                </li>
-                <li class="list-group-item tag-4">
                     <a href="./tag/gdg.html">
                         gdg
                     </a>
@@ -166,38 +161,12 @@
                         event
                     </a>
                 </li>
+                <li class="list-group-item tag-4">
+                    <a href="./tag/summary.html">
+                        summary
+                    </a>
+                </li>
         </ul>
-    </section>
-
-
-    <section>
-    <ul class="list-group list-group-flush">
-    <li class="list-group-item"><h4><i class="icon-github icon-large"></i>GitHub Repos</h4></li>
-        <div id="gh_repos">
-            <p class="list-group-item">Status updating...</p>
-        </div>
-    </ul>
-        <script type="text/javascript">
-            $(document).ready(function () {
-                if (!window.jXHR) {
-                    var jxhr = document.createElement('script');
-                    jxhr.type = 'text/javascript';
-                    jxhr.src = './theme/js/jXHR.js';
-                    var s = document.getElementsByTagName('script')[0];
-                    s.parentNode.insertBefore(jxhr, s);
-                }
-
-                github.showRepos({
-                    user: 'ZoomQuiet',
-                    count: 5,
-                    skip_forks: false,
-                    target: '#gh_repos',
-                    sort_attribute: 'pushed_at',
-                    sort_descending: true
-                });
-            });
-        </script>
-        <script src="./theme/js/github.js" type="text/javascript"></script>
     </section>
 </aside>        </div>
     </div>

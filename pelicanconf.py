@@ -67,7 +67,7 @@ LINKS =  None
 ADDTHIS_PROFILE = True
 DISQUS_SITENAME = u"{wwwpychinaorg}" #填入你的Shortname
 
-GITHUB_USER = "ZoomQuiet"
+#GITHUB_USER = "ZoomQuiet"
 
 MENUITEMS = (('PyConChina', 'http://cn.pycon.org')
           ,('配置中可追加', '#')

@@ -15,7 +15,6 @@ env.cloudfiles_username = 'my_rackspace_username'
 env.cloudfiles_api_key = 'my_rackspace_api_key'
 env.cloudfiles_container = 'my_cloudfiles_container'
 
-
 def clean():
     if os.path.isdir(DEPLOY_PATH):
         local('rm -rf {deploy_path}'.format(**env))
@@ -41,20 +40,31 @@ def reserve():
 def preview():
     local('pelican -s publishconf.py')
 
-def cf_upload():
-    rebuild()
-    local('cd {deploy_path} && '
-          'swift -v -A https://auth.api.rackspacecloud.com/v1.0 '
-          '-U {cloudfiles_username} '
-          '-K {cloudfiles_api_key} '
-          'upload -c {cloudfiles_container} .'.format(**env))
+#def cf_upload():
+#    rebuild()
+#    local('cd {deploy_path} && '
+#          'swift -v -A https://auth.api.rackspacecloud.com/v1.0 '
+#          '-U {cloudfiles_username} '
+#          '-K {cloudfiles_api_key} '
+#          'upload -c {cloudfiles_container} .'.format(**env))
+#
+#@hosts(production)
+#def publish():
+#    local('pelican -s publishconf.py')
+#    project.rsync_project(
+#        remote_dir=dest_path,
+#        exclude=".DS_Store",
+#        local_dir=DEPLOY_PATH.rstrip('/') + '/',
+#        delete=True
+#    )
 
-@hosts(production)
-def publish():
-    local('pelican -s publishconf.py')
-    project.rsync_project(
-        remote_dir=dest_path,
-        exclude=".DS_Store",
-        local_dir=DEPLOY_PATH.rstrip('/') + '/',
-        delete=True
-    )
+#   deploy in obp hosting
+env.hosts = ['cn.pycon.org']
+env.port = 9022
+env.user = 'pycon'
+code_dir = '/opt/www/PyChina'
+
+def deploy():
+    with cd(code_dir):
+        run('git pull')
+        run('/opt/sbin/_package_linux_amd64/qrsync -skipsym /opt/sbin/7niu4pychina.json')

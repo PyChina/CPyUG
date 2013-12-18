@@ -52,7 +52,7 @@ DISQUS_SITENAME = u"{pychinaorg}" #填入你的Shortname
 
 #GITHUB_USER = "ZoomQuiet"
 MENUITEMS = (('PyConChina', 'http://cn.pycon.org')
-          ,('配置中可追加', '#')
+          ,('News', 'http://news.pychina.org')
           )
 
 # Feed generation is usually not desired when developing

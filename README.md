@@ -42,14 +42,14 @@ main loop:
 - or becamed https://gitcafe.com/CPyUG member hold the repo. ACL
 - cd into content/
 - the sub-dir means:
-    
-    content/
-        +- Events       首字母大写的是分类目录 收集对应文章
-        +- Volunteer    ...志愿者
-        +- _extra       扩展功能文件 e.g robots.txt
-        +- _files       站内文件
-        +- _images      站内图片
-        `- pages        类似 about 的导航栏文档
+
+        content/
+            +- Events       首字母大写的是分类目录 收集对应文章
+            +- Volunteer    ...志愿者
+            +- _extra       扩展功能文件 e.g robots.txt
+            +- _files       站内文件
+            +- _images      站内图片
+            `- pages        类似 about 的导航栏文档
 
 #### 文章格式
 - 标准 Markdown 格式
@@ -74,6 +74,7 @@ main loop:
 
 支持本地调试! 使用 `fabric` 进行管理, 支持的命令:
 
+    fab 
     Available commands:
 
         build       编译所有页面

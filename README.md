@@ -57,7 +57,8 @@ How to update the site contents
 
 - 其中:
     - `Date:` 如果没有将使用文件的系统时间
-    - `Tags:` 使用逗号作间隔
+    - `Tags:` 使用逗号作间隔, 不宜过多,建议三个为界,以人物/行为/目标领域 为方向进行定义
+        - 参考: [如何规划blog的标签（tag）和分类 - 心内求法 - 博客园](http://www.cnblogs.com/holbrook/archive/2012/11/05/2755268.html)
     - `Slug:` 是实际输出的页面文件名, 建议全部小写E文, 使用中划线, 不使用特殊符号
 
 

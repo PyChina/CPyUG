@@ -30,11 +30,11 @@ How to update the site contents
 
 main loop:
 
-- git clone
-- edit some .md in `content/`
-- `fab rebuild` for test local
-- git add->ci->push
-- `fab deploy` published all
+1. git clone
+1. edit some .md in `content/`
+1. `fab rebuild` for test local
+1. git add->ci->push
+1. `fab deploy` published all
 
 ### writing
 

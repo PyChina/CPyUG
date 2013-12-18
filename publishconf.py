@@ -10,11 +10,12 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://www.pychina.org'
+SITEURL = 'http://pychina.org'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+SOCIAL = SOCIAL + (('rss', SITEURL + '/' + FEED_ALL_ATOM),)
 
 DELETE_OUTPUT_DIRECTORY = True
 
@@ -22,3 +23,7 @@ DELETE_OUTPUT_DIRECTORY = True
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
+DISQUS_SITENAME = u"{wwwpychinaorg}" #填入你的Shortname
+
+ARTICLE_URL = '{category}/{slug}.html'
+ARTICLE_SAVE_AS = '{category}/{slug}.html'

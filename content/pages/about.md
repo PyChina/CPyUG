@@ -11,7 +11,7 @@ like as: perl-china/ruby-china etc.
 
 so after PyCon2013China, some `old` Chinese Pythonista together and building:
 
-![](PyChina_logo_131217_zq_h200.png)
+![](../_images/PyChina_logo_131217_zq_h200.png)
 
 ## goal
 

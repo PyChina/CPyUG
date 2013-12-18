@@ -3,17 +3,18 @@ import fabric.contrib.project as project
 import os
 
 # Local path configuration (can be absolute or relative to fabfile)
+env.input_path = 'content'
+
 env.deploy_path = 'output'
 DEPLOY_PATH = env.deploy_path
-
 # Remote server configuration
-production = 'root@localhost:22'
-dest_path = '/var/www'
+#production = 'root@localhost:22'
+#dest_path = '/var/www'
 
 # Rackspace Cloud Files configuration settings
-env.cloudfiles_username = 'my_rackspace_username'
-env.cloudfiles_api_key = 'my_rackspace_api_key'
-env.cloudfiles_container = 'my_cloudfiles_container'
+#env.cloudfiles_username = 'my_rackspace_username'
+#env.cloudfiles_api_key = 'my_rackspace_api_key'
+#env.cloudfiles_container = 'my_cloudfiles_container'
 
 def clean():
     if os.path.isdir(DEPLOY_PATH):
@@ -21,15 +22,15 @@ def clean():
         local('mkdir {deploy_path}'.format(**env))
 
 def build():
-    local('pelican -s pelicanconf.py')
+    local('pelican {input_path} -o {deploy_path} -s pelicanconf.py'.format(**env))
 
 def rebuild():
     clean()
     build()
 
-def regenerate():
-    local('pelican -r -s pelicanconf.py')
-
+#def regenerate():
+#    local('pelican -r -s pelicanconf.py')
+#
 def serve():
     local('cd {deploy_path} && python -m SimpleHTTPServer'.format(**env))
 
@@ -58,6 +59,7 @@ def preview():
 #        delete=True
 #    )
 
+# Remote server configuration
 #   deploy in obp hosting
 env.hosts = ['cn.pycon.org']
 env.port = 9022

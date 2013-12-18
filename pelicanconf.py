@@ -62,10 +62,11 @@ TRANSLATION_FEED_ATOM = None
 FEED_ALL_RSS = None
 CATEGORY_FEED_RSS= None
 SOCIAL = (('GitHub', 'https://github.com/PyConChina')
-        , ('CPyUG', 'https://gitcafe.com/CPyUG')
+        , ('Weekly', 'http://weekly.pychina.org')
         , ('News', 'http://news.pychina.org')
-        , ('Wiki', 'http://wiki.woodpecker.org.cn/moin/CPUG')
         , ('rss', SITEURL + '/' + FEED_ALL_ATOM)
+        , ('CPyUG', 'https://gitcafe.com/CPyUG')
+        , ('Wiki', 'http://wiki.woodpecker.org.cn/moin/CPUG')
         , ('weibo', 'http://weibo.com/pyconcn')
         , ('O.B.P', 'http://weibo.com/openbookproject')
         )

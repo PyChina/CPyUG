@@ -38,8 +38,8 @@ def reserve():
     build()
     serve()
 
-def preview():
-    local('pelican -s publishconf.py')
+#def preview():
+#    local('pelican -s publishconf.py')
 
 #def cf_upload():
 #    rebuild()

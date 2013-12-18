@@ -28,6 +28,14 @@ so after PyCon2013China, some `old` Chinese Pythonista together and building:
 ## usage
 How to update the site contents
 
+main loop:
+
+- git clone
+- edit some .md in `content/`
+- `fab rebuild` for test local
+- git add->ci->push
+- `fab deploy` published all
+
 ### writing
 
 - fork https://gitcafe.com/CPyUG/PyChina into local

@@ -18,8 +18,8 @@ DEPLOY_PATH = env.deploy_path
 
 def clean():
     if os.path.isdir(DEPLOY_PATH):
-        local('rm -rf {deploy_path}'.format(**env))
-        local('mkdir {deploy_path}'.format(**env))
+        local('rm -rf {deploy_path}/*'.format(**env))
+        #local('mkdir {deploy_path}'.format(**env))
 
 def build():
     local('pelican {input_path} -o {deploy_path} -s pelicanconf.py'.format(**env))

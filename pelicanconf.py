@@ -48,7 +48,7 @@ TAG_CLOUD_MAX_ITEMS = 10
 DISPLAY_CATEGORIES_ON_MENU = None      # 分类标签是否显示在导航
 # Social widget
 ADDTHIS_PROFILE = True
-DISQUS_SITENAME = u"{wwwpychinaorg}" #填入你的Shortname
+DISQUS_SITENAME = u"{pychinaorg}" #填入你的Shortname
 
 #GITHUB_USER = "ZoomQuiet"
 MENUITEMS = (('PyConChina', 'http://cn.pycon.org')

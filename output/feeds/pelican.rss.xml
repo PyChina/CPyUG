@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PyChina.org</title><link>http://www.pychina.org/</link><description></description><atom:link href="http://www.pychina.org/feeds/pelican.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 13 Dec 2013 00:00:00 +0800</lastBuildDate><item><title>Issue 96: 蛋刀</title><link>http://www.pychina.org/pelican/issue-96-dan-dao.html</link><description>&lt;h2&gt;Hi Pythonistas!&lt;/h2&gt;
+&lt;p&gt;马上就100期了! 哗!&lt;/p&gt;
+&lt;p&gt;一如即往,任何疑问/意见/抱怨/建议,
+让我们知道就好;&lt;/p&gt;
+&lt;p&gt;To the  keep up with all the breaking Python news follow @pycoders. &lt;/p&gt;
+&lt;p&gt;想跟上所有 蠎界 新闻?
+ &lt;a href="http://twitter.com/pycoders"&gt;@pycoders&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;请用
+&lt;a href="https://www.gittip.com/PycodersWeekly"&gt;Gittip&lt;/a&gt;
+支持俺们吧!&lt;/p&gt;
+&lt;p&gt;--
+&lt;a href="https://twitter.com/#!/myusuf3"&gt;Mahdi&lt;/a&gt; and &lt;a href="https://twitter.com/#!/mgrouchy"&gt;Mike&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原文: &lt;a href="http://eepurl.com/KD6rH"&gt;Pycoder's Weekly (Issue #96): Cake&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;新闻&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.djangoproject.com/weblog/2013/dec/09/reviving-django-update-posts/"&gt;Django 更新报告将复活&lt;/a&gt; (djangoproject.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Django 团队宣布对 1.7 的发展更新将在 Blog 中复活,
+以便加强社区更新.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://2014.djangocon.eu/"&gt;DjangoCon EU 准备上岛!&lt;/a&gt; (djangocon.eu)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;目测 DjangoCon EU 将在 2014 五月 12-17号,
+在 L'île des Embiez 举行, 法国的一个岛上,整个儿的!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://nedbatchelder.com/blog/201312/coveragepy_371.html"&gt;Coverage 3.7.1 发布&lt;/a&gt; (nedbatchelder.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;主要对 HTML 报表性能进行了发布.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://pydev.blogspot.ca/2013/12/pydev-310-released.html"&gt;Pydev 3.1.0 发布&lt;/a&gt; (blogspot.ca)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;讨论&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://www.reddit.com/r/Python/comments/1slrzj/need_some_resources_to_help_scale_up_my_datamining/"&gt;针对俺数据挖掘的扩展请指教&lt;/a&gt; (reddit.com)
+Need Some Resources To Help Scale Up My Data Mining.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.reddit.com/r/Python/comments/1spfvg/know_python_project_byzantium_needs_your_help/"&gt;会 Python? Byzantium 项目需要你!&lt;/a&gt; (reddit.com)
+Know Python? Project Byzantium Needs Your Help!&lt;/p&gt;
+&lt;h2&gt;项目&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/bramcohen/DissidentX"&gt;DissidentX&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bram Cohen 发布的一种 Censorship resistance 工具,能将图形编码文件中.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/etsy/MIDAS"&gt;MIDAS&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;用以专发 Mac 上入侵分析系统的框架.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/SEL-Columbia/bamboo"&gt;bamboo&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;简化的实时数据分析应用.
+bammboo 支持通过界面对动态数据进行 合并,聚集,加入代数计算.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/machinalis/telegraphy/"&gt;telegraphy&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Telegraphy 
+为 WSGI 应用提供了各种实时的附加功能,
+例如: 事件过滤,订阅的持久化,授权/认证...
+求试用!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/mitsuhiko/timesched"&gt;timesched&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这是 daemontools 的工具接口.
+能工作在 Windows 以及所有 Python 能跑的系统中,
+包含完善的测试, 并不需要安装专用编译器.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/mitsuhiko/timesched"&gt;timesched&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;简洁的日历应用,
+对于在 Python 中想使用 Angular.js 以及时区控制的,值得一试.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/worldveil/dejavu"&gt;dejavu&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;是否想知道 Shazam 怎么工作的?
+&lt;code&gt;音频指纹识别&lt;/code&gt; 算法已经在 Python 中实现!&lt;/p&gt;
+&lt;h2&gt;文章&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://blog.ionelmc.ro/2013/12/10/adding-stacktraces-to-log-messages/"&gt;在日志中增加堆栈跟踪消息&lt;/a&gt; (ionelmc.ro)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://pypix.com/tools-and-tips/advanced-regular-expression-tips-techniques/"&gt;高级正则表达式技巧/技术&lt;/a&gt;(pypix.com)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;正则表达式对于多数人是混沌的,
+看看这篇文章,学习一些高级技巧.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://bensouthgate.com/p/12_3_13.php"&gt;用Python 构建渐变色&lt;/a&gt; (bensouthgate.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;想知道怎么用 Python 以脚本形式来创建渐变色的话,
+学习这篇带有示例代码的好文章吧!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://blog.safaribooksonline.com/2013/12/05/flask-with-mock-and-nose/"&gt;在Flask中 用Mock 和 Nose 进行测试 &lt;/a&gt;(safaribooksonline.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;一篇伟大的教程,
+教会你如何开始使用 Nose 测试 FLask 应用,
+并有对 Mock 的良好介绍.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-testing/"&gt;改进你的Python: 理解单元测试&lt;/a&gt; (jeffknupp.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;梦幻般的好文章!
+如果你在寻求测试水平的突破,从这儿开始!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://datadesk.latimes.com/posts/2013/12/natural-language-processing-in-the-kitchen/"&gt;厨房中的自然语言处理&lt;/a&gt; (latimes.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;洛杉矶时报,
+已经结合入了 假日版加州菜谱 在界面上.&lt;/p&gt;
+&lt;p&gt;这是用Python 的自然语言处理技术达成的,
+详细请参看文章以及示例代码.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://syerram.silvrback.com/make-django-fasssst"&gt;加速 Django&lt;/a&gt;  (silvrback.com)
+月经文了...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;是也乎&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;131216 &lt;a href="http://zoomquiet.org/"&gt;Zoom.Quiet&lt;/a&gt; 用时 42 分钟 完成快译.&lt;/li&gt;
+&lt;li&gt;131216 &lt;a href="http://zoomquiet.org/"&gt;Zoom.Quiet&lt;/a&gt; 用时 7 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">CPyUG</dc:creator><pubDate>Fri, 13 Dec 2013 00:00:00 +0800</pubDate><guid>tag:www.pychina.org,2013-12-13:pelican/issue-96-dan-dao.html</guid><category>pelican</category></item><item><title>Issue 95: 分支</title><link>http://www.pychina.org/pelican/issue-95-fen-zhi.html</link><description>&lt;h2&gt;Hi Pythonistas!&lt;/h2&gt;
+&lt;p&gt;本周 Jam 又打包了成吨的好物, 来看看吧!&lt;/p&gt;
+&lt;p&gt;一如即往,任何疑问/意见/抱怨/建议,
+让我们知道就好;&lt;/p&gt;
+&lt;p&gt;To the  keep up with all the breaking Python news follow @pycoders. &lt;/p&gt;
+&lt;p&gt;想跟上所有 蠎界 新闻?
+ &lt;a href="http://twitter.com/pycoders"&gt;@pycoders&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;请用
+&lt;a href="https://www.gittip.com/PycodersWeekly"&gt;Gittip&lt;/a&gt;
+支持俺们吧!&lt;/p&gt;
+&lt;p&gt;--
+&lt;a href="https://twitter.com/#!/myusuf3"&gt;Mahdi&lt;/a&gt; and &lt;a href="https://twitter.com/#!/mgrouchy"&gt;Mike&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原文: &lt;a href="http://eepurl.com/Kfx3j"&gt;Pycoder's Weekly (Issue #95): Fork&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;新闻&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://mail.python.org/pipermail/python-dev/2013-December/130673.html"&gt;Python 3 was released 5 years ago!&lt;/a&gt; (python.org)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;5 year anniversary of your second favorite Python version.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.djangoproject.com/weblog/2013/dec/02/image-field-advisory/"&gt;Security Advisory: ImageField Abuse&lt;/a&gt; (djangoproject.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You should probably take a look if you use ImageField and Django. Just Sayin’.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://blog.jetbrains.com/pycharm/2013/12/announcing-pycharm-3-0-2/"&gt;Announcing PyCharm 3.0.2&lt;/a&gt; (jetbrains.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Probably fixes a few annoyances you might have been having as of late.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://news.open-bio.org/news/2013/12/biopython-1-63-released/"&gt;BioPython 1.63 released&lt;/a&gt; (open-bio.org)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;讨论&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.reddit.com/r/Python/comments/1rttk6/devs_who_work_on_large_projects_do_you_use_an_ide/"&gt;Developers Who Work on Large Python Projects. Do you use an IDE?&lt;/a&gt; (reddit.com)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.reddit.com/r/Python/comments/1rs7ub/what_are_some_mustwatch_python_videos/"&gt;What Are Some Must Watch Python Videos?&lt;/a&gt; (reddit.com)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;项目&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/forrestv/p2pool"&gt;p2pool&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A peer-to-peer bitcoin mining pool.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/np1/pms"&gt;pms&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Poor Man's Spotify, search and stream music.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/davidcrawford/chronic"&gt;chronic&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Half way between a simple timer and profile, chronic allows you to add decorators or wrap code in with statements to determine execution time.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/Ceasar/twosheds/"&gt;twosheds&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a library, written in Python, for making command language interpreters, or shells. twosheds lets you write your own shell, in Python, complete customization.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/tav/assetgen"&gt;assetgen&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A framework agnostic asset generator for modern web applications. It aims to replace all the ad-hoc scripts you have hanging around to manage your css and JavaScript Files.&lt;/p&gt;
+&lt;h2&gt;文章&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://zapier.com/engineering/profiling-python-boss/"&gt;Profiling Python Like a Boss&lt;/a&gt; (zapier.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Great guide to do some quick profiling of your Python applications with the goal to quickly identify bottlenecks, fix them and confirm you have fixed them.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://tmanstwobits.com/deploy-django-applications-with-fabric.html"&gt;Deploy Django applications with Fabric&lt;/a&gt; (tmanstwobits.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you are not deploying your application to Heroku or its like, Fabric is one of the key tools to deploying your application in a consistent and repeatable manner. Check out this post which guides you to deploying your Django applications with Fabric.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.jeffknupp.com/blog/2013/11/29/improve-your-python-decorators-explained/"&gt;Improve Your Python: Decorators Explained&lt;/a&gt;
+ (jeffknupp.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Still mystified by Python decorators, check out this great explanation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://jakevdp.github.io/blog/2013/12/01/kernel-density-estimation/"&gt;Kernel Density Estimation in Python&lt;/a&gt; (github.io)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://pypix.com/django/tdd-in-django/"&gt;Let’s TDD a Simple App in Django&lt;/a&gt; (pypix.com)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Looking to get started with Test Driven Development on a Django project? This tutorial will help you hit the ground running.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://s-n.me/blog/2012/10/16/realtime-websites-with-flask/"&gt;Realtime Websites With Flask, Gevent and Server-Sent Events&lt;/a&gt; (s-n.me)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Web that support realtime data are more and more becoming the future. Get started making your Flask app realtime with Gevent and server-sent events.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://blog.gemnasium.com/post/68876047695/dependencies-with-python-a-bit-of-history"&gt;Dependencies with Python: a bit of history&lt;/a&gt; (gemnasium.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Python packaging has a long and tangled history. Get a breakdown of the history of Python packaging/dependencies from distutils to pip.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://bastibe.de/2013-11-27-audio-in-python.html"&gt;Sound in Python&lt;/a&gt; (bastibe.de)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you ever wanted to work with audio data in Python this is the post for you. In this post the author guides you through the process of reading and writing audio data using a library he has created called PySoundCard.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://matthewrocklin.com/blog/work/2013/12/05/Parallelism-and-Serialization/"&gt;Parallelism and Serialization How Poor Pickling Breaks Multiprocessing&lt;/a&gt; (matthewrocklin.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;是也乎&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;131213 &lt;a href="http://zoomquiet.org/"&gt;Zoom.Quiet&lt;/a&gt; 用时 7 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">CPyUG</dc:creator><pubDate>Fri, 06 Dec 2013 00:00:00 +0800</pubDate><guid>tag:www.pychina.org,2013-12-06:pelican/issue-95-fen-zhi.html</guid><category>pelican</category></item><item><title>Issue 94 ~ 黑色星期五</title><link>http://www.pychina.org/pelican/issue-94-hei-se-xing-qi-wu.html</link><description>&lt;h2&gt;Hi Pythonistas!&lt;/h2&gt;
+&lt;p&gt;我们决定使用更加醒目的标题, 希望你喜欢.&lt;/p&gt;
+&lt;p&gt;一如即往,任何疑问/意见/抱怨/建议,
+让我们知道就好;&lt;/p&gt;
+&lt;p&gt;To the  keep up with all the breaking Python news follow @pycoders.&lt;/p&gt;
+&lt;p&gt;想跟上所有 蠎界 新闻?
+ &lt;a href="http://twitter.com/pycoders"&gt;@pycoders&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;请用
+&lt;a href="https://www.gittip.com/PycodersWeekly"&gt;Gittip&lt;/a&gt;
+支持俺们吧!&lt;/p&gt;
+&lt;p&gt;--
+&lt;a href="https://twitter.com/#!/myusuf3"&gt;Mahdi&lt;/a&gt; and &lt;a href="https://twitter.com/#!/mgrouchy"&gt;Mike&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原文: &lt;a href="http://eepurl.com/JNJUX"&gt;Pycoder's Weekly (Issue #94): Black Friday&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;新闻&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://blog.gevent.org/2013/11/26/gevent-1-0-released/"&gt;Gevent 1.0 Released!&lt;/a&gt; (gevent.org)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Version 1.0 of Gevent released with a new core and new dns resolver and new api. Check out all the release notes here.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://hellowebapp.com/"&gt;Hello, Web App&lt;/a&gt; (hellowebapp.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Book on introduction to web app development using Python and Django. Tailored for non-programmers, written by a designer. Leave your email to keep up to date.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://morepypy.blogspot.ca/2013/11/pypy-221-incrementalism1.html"&gt;PyPy 2.2.1 released!&lt;/a&gt; (blogspot.ca)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a bugfix release, adds Tkinter support for windows and fixes various other issues.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.python.org/download/releases/3.4.0/"&gt;Python 3.4.0 Beta 1 released&lt;/a&gt; (python.org)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lots of improvements in 3.4.0 including new pathlib, enum and statistics modules as well as many other bugfixes and improvements.&lt;/p&gt;
+&lt;h2&gt;讨论&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.reddit.com/r/Python/comments/1r61s8/im_an_idiot/"&gt;I am an idiot.&lt;/a&gt;. (reddit.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Use a good font, it saves grief.&lt;/p&gt;
+&lt;h2&gt;项目&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/dropbox/responses"&gt;responses&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Make testing a little easier with responses, a utility library for mocking out the requests library.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/ateska/ramona"&gt;ramona&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A enterprise grade application supervisor. Ramona insures that each process of an application is running, restarts when needed and monitors/logs process output and sends email notifications to admins when errors are detected.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/9miao/firefly"&gt;firefly&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A distributed game server side framework. Allows front end developers save many working hours by only having to focus on gameplay logic.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/hannes-brt/hebel"&gt;hebel&lt;/a&gt;  (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A library for 
+&lt;a href="http://en.wikipedia.org/wiki/Deep_learning"&gt;deep learning&lt;/a&gt; with 
+&lt;a href="http://en.wikipedia.org/wiki/Artificial_neural_network"&gt;neural networks&lt;/a&gt; 
+in Python using GPU-Acceleration. It implements the most important types of neural network models and provides a variety of activation functions and training methods.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/sgillies/rasterio"&gt;rasterio&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This exists to let Python programmers read and write numpy arrays (or other array-like objects providing the PEP 3118 buffer interface) from and to raster data files.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/xiaoxu193/PyTeaser"&gt;pyteaser&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Summarize news articles. Based on the scala project 
+&lt;a href="https://github.com/MojoJolo/textteaser"&gt;TextTeaser&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/Mimino666/django-admin-autoregister"&gt;ango-admin-autoregister&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Stop writing admin boilerplate in Django with this app.&lt;/p&gt;
+&lt;h2&gt;文章&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://machinalis.com/blog/2013/nov/27/Reuse-and-Simplicity/"&gt;Reuse and Simplicity: a difference of approach between Python and C#&lt;/a&gt; (machinalis.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a great post about some of the difference in approach between writing C# and Python told through the lens of a training C# developers in Python.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://etienned.github.io/posts/extract-text-from-word-docx-simply/"&gt;Extract Text from Word Files Simply&lt;/a&gt; (github.io)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pulling text out of a .txt file in Python can be done without a though, here the author gives a great example of how to accomplish the same thing with .docx files.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.willmcgugan.com/blog/tech/2013/11/25/finding-the-first-bit-set-with-python/"&gt;Finding The First Bit Set With Python&lt;/a&gt; (willmcgugan.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;How do you find the index of a set bit in a Python integer? It seems like the obvious answer might not be so simple.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://pydanny.com/python-yields-are-fun.html"&gt;Python Yields are Fun!&lt;/a&gt;! (pydanny.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this post the author gives you a nice explanation with examples of how to solve common problems using Python’s &lt;code&gt;yield&lt;/code&gt; statement.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://badhessian.org/2013/11/cluster-computing-for-027hr-using-amazon-ec2-and-ipython-notebook/"&gt;Cluster Computing for $0.27/hr using EC2 and IPython Notebook&lt;/a&gt; (badhessian.org)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a cool tutorial that shows you how to setup a cluster instance at 
+&lt;a href="http://aws.amazon.com/"&gt;Amazon Web Services&lt;/a&gt;
+, set up a public IPython notebook server and access this remote cluster via your web browser.&lt;/p&gt;
+&lt;h1&gt;是也乎&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;131130 &lt;a href="http://zoomquiet.org/"&gt;Zoom.Quiet&lt;/a&gt; 用时 3 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">CPyUG</dc:creator><pubDate>Sat, 30 Nov 2013 00:00:00 +0800</pubDate><guid>tag:www.pychina.org,2013-11-30:pelican/issue-94-hei-se-xing-qi-wu.html</guid><category>pelican</category></item></channel></rss>

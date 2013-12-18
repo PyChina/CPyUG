@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PyChina.org</title><link>http://www.pychina.org/</link><description></description><atom:link href="http://www.pychina.org/feeds/chaos.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 22 Nov 2013 00:00:00 +0800</lastBuildDate><item><title>Issue 93 ~ 机器人游戏</title><link>http://www.pychina.org/chaos/issue-93-ji-qi-ren-you-xi.html</link><description>&lt;h2&gt;Hi Pythonistas!&lt;/h2&gt;
+&lt;p&gt;这封邮件比预期稍晚才发送出来
+不过,依旧是一大包好物送上!&lt;/p&gt;
+&lt;p&gt;一如即往,任何疑问/意见/抱怨/建议,
+让我们知道就好;&lt;/p&gt;
+&lt;p&gt;想跟上所有 蠎界 新闻?
+ &lt;a href="http://twitter.com/pycoders"&gt;@pycoders&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;请用
+&lt;a href="https://www.gittip.com/PycodersWeekly"&gt;Gittip&lt;/a&gt;
+支持俺们吧!&lt;/p&gt;
+&lt;p&gt;--
+&lt;a href="https://twitter.com/#!/myusuf3"&gt;Mahdi&lt;/a&gt; and &lt;a href="https://twitter.com/#!/mgrouchy"&gt;Mike&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原文: &lt;a href="http://eepurl.com/Jk4A5"&gt;Pycoder's Weekly (Issue #93): Robot Game&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;新闻与开发动态&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://ep14.org/"&gt;Euro Python 2014&lt;/a&gt; (ep14.org)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;EuroPython 2014 的日期已释出,
+这回是在德国, 柏林, 七月21-27 号,整整一周哪!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://pyfound.blogspot.ca/2013/11/congratulations-to-barry-warsaw.html"&gt;祝贺 Barry Warsaw&lt;/a&gt; (blogspot.ca)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Barry Warsaw 后获得了2013 Q3 由 PSF 颁发的社区服务奖.
+感谢他对 Python 社区的贡献!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://robotgame.org/home"&gt;Robot Game&lt;/a&gt; (robotgame.org)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;编写 Python 代码,来控制机械人, 通过比赛超过其它玩家,爬到榜首吧!
+太 COOL 了!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://docs.python.org/3.3/whatsnew/3.3.html"&gt;Python 3.3 已经发布!&lt;/a&gt; (python.org)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最新版本包含了大量更新,包括新的内置库,
+新的内建命令. 点击查阅细节吧.&lt;/p&gt;
+&lt;h2&gt;讨论&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.reddit.com/r/Python/comments/1r4zoq/who_is_using_python_3/"&gt;Who is using Python 3&lt;/a&gt; (reddit.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;又是 reddit 引发的大讨论,大家对升级到 Py3 有很大的焦虑,也因此给出了很多建议.&lt;/p&gt;
+&lt;h2&gt;项目&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/hamstah/redux"&gt;redux&lt;/a&gt; (bitbucket.org)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Interested in Delta Debugging? Redux aims to help apply the idea of delta debugging to Python programs.
+对增量调试(Delta Debugging)有兴趣嘛?
+Redux 的目标就是能对 Python 程序进行 增量调试(Delta Debugging)!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/kencochrane/django-docker"&gt;django-docker&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you are wondering how to use docker in your django project, look no further than this demo django app.
+如果想在 Django 中折腾 泊坞窗, 
+建议学习这个 demo.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/mchaput/whoosh/wiki/Home"&gt;whoosh&lt;/a&gt; (bitbucket.org)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Whoosh 是纯Python 完成的 快速,全文索引及搜索库!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/mopidy/mopidy"&gt;mopidy&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mopidy 给出了一个绝妙的主意.
+通过启动一个音乐服务,你可以将本地音乐通过音频流从任何设备中播放,
+提供类似 Spotify 的音乐云服务.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/pythonhub/quokka"&gt;quokka&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://flask.pocoo.org/"&gt;基于Flask&lt;/a&gt; 的 CMS
+使用 MongoDB.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://stanford.edu/~mwaskom/software/seaborn/index.html#"&gt;Seaborn&lt;/a&gt; (stanford.edu)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;建筑在 matplotlib 之上, 
+Seaborn 提供高层次功能,
+帮助你创建美观又实用的数据统计图表.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/timothycrosley/isort"&gt;isort&lt;/a&gt; (github.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;用来组织Python 导入行为的小工具.
+包含一个命令行工具,以及多种流行编辑器的插件!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/unionsquareventures/conversation"&gt;conversation&lt;/a&gt; (github.com)
+&lt;a href="http://www.usv.com/"&gt;Union Square Ventures&lt;/a&gt;
+社区网站已经开源.
+不用等VC 折腾了.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/jvns/git-workflow"&gt;git-workflow&lt;/a&gt; (github.com)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;一个可视化你的 git 工作流程的工具.
+提供了很有爱的 demo.&lt;/p&gt;
+&lt;h2&gt;文章&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://zapier.com/engineering/debugging-python-boss/"&gt;Debugging Python Like a Boss&lt;/a&gt; (zapier.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;作者对 Python 的调试工具给出了很靠谱的细分对比:
+&lt;a href="http://docs.python.org/2/library/pdb.html"&gt;pdb&lt;/a&gt;, 
+&lt;a href="https://pypi.python.org/pypi/pudb"&gt;pudb&lt;/a&gt;, 
+&lt;a href="https://code.google.com/p/pydbgr/"&gt;pydbgr&lt;/a&gt; 以及
+&lt;a href="https://github.com/gotcha/ipdb"&gt;ipdb&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://coderwall.com/p/0luvca"&gt;用Betamax来测试&lt;/a&gt; (coderwall.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你总是围绕 python-requests 进行测试,
+赶紧学习此文,
+学习如果使用 betamax 库来便利的模拟 外部影响.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://akaptur.github.io/blog/2013/11/15/introduction-to-the-python-interpreter/"&gt;介绍Python解释器，第1部分：函数对象&lt;/a&gt; (github.io)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;从这儿可以了解到以往想知道但是从来没敢问的 Python 解释器知识!
+第一部分中,作者讲了函式对象的事儿,
+第2/3部分,有更多有帮助的知识,要及时查阅!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://vimeo.com/pydata"&gt;PyData NYC 2013 videos&lt;/a&gt; (vimeo.com)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PyData NYC 2013 的视频发布了,
+大量NB 的东西!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://mail.python.org/pipermail/python-list/2013-November/660401.html"&gt;何时该用 assert&lt;/a&gt; (python.org)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;你是否想知道,什么是使用 断言 的正当时机?
+哪, 这是发送到 comp.lang.python 有关 assert 的重要文章.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://blog.mikiobraun.de/2013/11/how-python-became-the-language-of-choice-for-data-science.html"&gt;Python 如何成为科学数据分析的首选语言?&lt;/a&gt; (mikobraun.de)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最近涌现了大量有关科学数据分析 Python 相关的文章,
+这里分析了为毛!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://tech.oyster.com/save-ram-with-python-slots/"&gt;用 &lt;strong&gt;slots&lt;/strong&gt; 在Python 中节省9Gb 的内存&lt;/a&gt; (oyster.com)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://farazdagi.com/blog/2013/weighted-interval-scheduling/"&gt;间隔的加权调度&lt;/a&gt; (farazdagi.com)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;是也乎&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;131126 &lt;a href="http://zoomquiet.org/"&gt;Zoom.Quiet&lt;/a&gt; 用时 31 分钟 完成快译.&lt;/li&gt;
+&lt;li&gt;131123 &lt;a href="http://zoomquiet.org/"&gt;Zoom.Quiet&lt;/a&gt; 用时 13 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">CPyUG</dc:creator><pubDate>Fri, 22 Nov 2013 00:00:00 +0800</pubDate><guid>tag:www.pychina.org,2013-11-22:chaos/issue-93-ji-qi-ren-you-xi.html</guid><category>pelican</category></item></channel></rss>

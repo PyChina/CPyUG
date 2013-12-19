@@ -6,7 +6,9 @@ from __future__ import unicode_literals
 ###############################################################
 AUTHOR = u'CPyUG'
 SITENAME = u'PyChina.org'
-SITEURL = 'http://pychina.org'
+DISQUS_SITENAME = u"pychinaorg" #填入你的Shortname
+
+SITEURL = 'pychina.org'
 MARKUP = ('md', )#'rst', 'html', 
 #   TIMEZONE = 'Europe/Paris'
 TIMEZONE = 'Asia/Shanghai'
@@ -48,7 +50,6 @@ TAG_CLOUD_MAX_ITEMS = 10
 DISPLAY_CATEGORIES_ON_MENU = None      # 分类标签是否显示在导航
 # Social widget
 ADDTHIS_PROFILE = True
-DISQUS_SITENAME = u"{pychinaorg}" #填入你的Shortname
 
 #GITHUB_USER = "ZoomQuiet"
 MENUITEMS = (('PyConChina', 'http://cn.pycon.org')

@@ -25,7 +25,9 @@ FILENAME_METADATA = '(?P<slug>.*)'
 ###############################################################   Plugins abt.
 ###############################################################
 # Plugins 
-PLUGINS=['_plugins.sitemap', '_plugins.gzip_cache']
+PLUGINS=['_plugins.sitemap'
+    #, '_plugins.gzip_cache'
+    ]
 SITEMAP = {
     'format': 'xml',
     'priorities': {

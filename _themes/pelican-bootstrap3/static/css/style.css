@@ -1,7 +1,7 @@
 /* PyChina.org design by Zoom.Quiet*/
 .navbar-nav {
     float: left;
-    margin: 0px 0px 0px -100px;
+    margin: 0px 0px 0px 0px;
 }
 .navbar-nav a:hover {
     background-color: #eee;

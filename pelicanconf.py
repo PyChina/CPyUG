@@ -17,7 +17,8 @@ DATE_FORMATS = {
 }
 DEFAULT_DATE_FORMAT = '%Y-%m-%d %H:%M'
 DEFAULT_DATE = 'fs' # use filesystem's mtime
-LOCALE = ('zh_CN.utf8',)
+
+#LOCALE = ('zh_CN.utf8',)
 DEFAULT_LANG = u'zh_CN'
 FILENAME_METADATA = '(?P<slug>.*)'
 
@@ -79,6 +80,7 @@ LINKS =  None
 ###############################################################   Publish abt.
 ###############################################################
 USE_FOLDER_AS_CATEGORY = True
+DELETE_OUTPUT_DIRECTORY = True
 DEFAULT_CATEGORY = u'Chaos'
 
 TEMPLATE_PAGES = {
@@ -96,7 +98,14 @@ EXTRA_PATH_METADATA = {
     }
 
 ARTICLE_URL = '{category}/{slug}.html'
-ARTICLE_SAVE_AS = '{category}/{slug}.html'
+ARTICLE_SAVE_AS = ARTICLE_URL
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = PAGE_URL
+CATEGORY_URL = '{slug}/index.html'
+CATEGORY_SAVE_AS = CATEGORY_URL
+TAG_URL = 'tag/{slug}.html'
+TAG_SAVE_AS = TAG_URL
+TAGS_SAVE_AS = 'tag/index.html'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

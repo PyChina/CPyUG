@@ -15,9 +15,11 @@ so after PyCon2013China, some `old` Chinese Pythonista together and building:
 
 ## goal
 
-- by Pythonner in China Operations
-- as Pythonner in China Deleloping
-- for Pythonista in Global support events organizing srvice
+
+    :::text
+    by Pythonner in China Operations
+    as Pythonner in China Deleloping
+    for Pythonista in Global support events organizing srvice
 
 
 ## organizer

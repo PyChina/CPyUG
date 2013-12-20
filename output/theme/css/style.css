@@ -1,4 +1,11 @@
-/* PyChina.org design by Zoom.Quiet*/
+/* PyChina.org design by Zoom.Quiet
+
+.highlight pre {
+    background-color: #202020;
+    color: #777;
+}
+
+*/
 .navbar-nav {
     float: left;
     margin: 0px 0px 0px 0px;
@@ -114,11 +121,6 @@ a, a:hover {
 .entry-content img {
     max-width: 100%;
     height: auto;
-}
-
-.highlight pre {
-    background-color: #202020;
-    color: #777;
 }
 
 #categories ul, #tags ul {

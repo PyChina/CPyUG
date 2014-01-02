@@ -1,6 +1,7 @@
 *.pyc
+.python-version
+local_settings.ini
+.DS_Store
 bin/
 include/
 lib/
-.DS_Store
-local_settings.ini

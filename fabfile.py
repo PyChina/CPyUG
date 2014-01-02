@@ -16,16 +16,16 @@ DEPLOY_PATH = env.deploy_path
 #env.cloudfiles_api_key = 'my_rackspace_api_key'
 #env.cloudfiles_container = 'my_cloudfiles_container'
 
-def clean():
-    if os.path.isdir(DEPLOY_PATH):
-        local('rm -rf {deploy_path}/*'.format(**env))
-        #local('mkdir {deploy_path}'.format(**env))
+#def clean():
+#    if os.path.isdir(DEPLOY_PATH):
+#        local('rm -rf {deploy_path}/*'.format(**env))
+#        #local('mkdir {deploy_path}'.format(**env))
 
 def build():
     local('pelican {input_path} -o {deploy_path} -s pelicanconf.py'.format(**env))
 
 def rebuild():
-    clean()
+    #clean()    # for PyChina.github.io can not clean output/.git
     build()
 
 #def regenerate():
@@ -66,7 +66,7 @@ env.port = 9022
 env.user = 'pycon'
 code_dir = '/opt/www/PyChina'
 
-def deploy():
+def deploy2obp():
     with cd(code_dir):
         run('git pull')
         run('/opt/sbin/_package_linux_amd64/qrsync -skipsym /opt/sbin/7niu4pychina.json')

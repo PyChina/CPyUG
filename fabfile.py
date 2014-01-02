@@ -24,9 +24,9 @@ DEPLOY_PATH = env.deploy_path
 def build():
     local('pelican {input_path} -o {deploy_path} -s pelicanconf.py'.format(**env))
 
-def rebuild():
-    #clean()    # for PyChina.github.io can not clean output/.git
-    build()
+#def rebuild():
+#    clean()    # for PyChina.github.io can not clean output/.git
+#    build()
 
 #def regenerate():
 #    local('pelican -r -s pelicanconf.py')

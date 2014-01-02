@@ -80,7 +80,7 @@ LINKS =  None
 ###############################################################   Publish abt.
 ###############################################################
 USE_FOLDER_AS_CATEGORY = True
-DELETE_OUTPUT_DIRECTORY = True
+DELETE_OUTPUT_DIRECTORY = None  #!!! for .github.io can not clean outupt/.git
 DEFAULT_CATEGORY = u'Chaos'
 
 TEMPLATE_PAGES = {

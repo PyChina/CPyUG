@@ -104,9 +104,7 @@ publish as bind pychina.org  ;-)
     Available commands:
 
         build       编译所有页面
-        clean       清除所有页面
-        deploy      向主机部署所有页面
-        rebuild     重编译所有页面
+        deploy2obp  从远程主机部署所有页面到7牛
         reserve     重编译所有页面再启动本地服务
         serve       启动本地服务 localhost:8000
 

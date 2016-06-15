@@ -1,5 +1,7 @@
 # PyChina.org
 
+[![Join the chat at https://gitter.im/PyChina/CPyUG](https://badges.gitter.im/PyChina/CPyUG.svg)](https://gitter.im/PyChina/CPyUG?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 in fact from 2003 there is CZUG.org ~ the 1st(and only one) focus Zope tech community be set up;
 
 so years ago, there is soooooooo many python tech abt. commuity in China
